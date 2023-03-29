@@ -44,6 +44,7 @@ function Player(main, song, pic, y) {
         main.src = song
         main.play()
         main.loop = true;
+        main.volume = 0.2
         document.body.appendChild(main)
     })
 }
