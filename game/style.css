@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./imgs/back_fon-transformed.jpeg");
+    filter: contrast(130%);
+}
