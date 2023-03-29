@@ -7,27 +7,17 @@ var stop = document.createElement("img");
 stop.src = './imgs/stoP.png';
 
 stop.style.position = "absolute"
-stop.style.width = 70 + "px"
-stop.style.height = 70 + "px"
+stop.style.width = 75 + "px"
+stop.style.height = 75 + "px"
 stop.style.top = 50 + '%'
 stop.style.left = '1.5%'
 document.body.appendChild(stop)
 
-stop.addEventListener('click', function () {
-    document.body.removeChild(scam_M)
-})
-
-stop.addEventListener('click', function () {
-    document.body.removeChild(scam1_M)
-})
-
-stop.addEventListener('click', function () {
-    document.body.removeChild(scam2_M)
-})
-
-stop.addEventListener('click', function () {
-    document.body.removeChild(scam3_M)
-})
+function removeM(name) {
+    stop.addEventListener('click', function () {
+        document.body.removeChild(name)
+    })
+}
 
 function Player(main, song, pic, y) {
     var img = document.createElement("img");
@@ -48,6 +38,11 @@ function Player(main, song, pic, y) {
         document.body.appendChild(main)
     })
 }
+
+removeM(scam_M)
+removeM(scam1_M)
+removeM(scam2_M)
+removeM(scam3_M)
 
 
 Player(scam_M, './music/scamS.mp3', './imgs/scamT.png', 5)
