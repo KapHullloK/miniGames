@@ -45,7 +45,7 @@ removeM(scam2_M)
 removeM(scam3_M)
 
 
-Player(scam_M, './music/scamS.mp3', './imgs/scamT.png', 5)
+Player(scam_M, './music/Komar.mp3', './imgs/scamT.png', 5)
 Player(scam1_M, './music/S3rlH.mp3', './imgs/s3H.png', 15)
 Player(scam2_M, './music/stonik.mp3', './imgs/stoniK.png', 25)
 Player(scam3_M, './music/fortuna.mp3', './imgs/fortunA.png', 35)
