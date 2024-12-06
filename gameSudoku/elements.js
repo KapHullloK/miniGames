@@ -4,6 +4,7 @@ const NUMS = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 const InputKeys = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7, 'I': 8}
 
+// 2D arrays representing different Sudoku board configurations (9x9 grids)
 const all9 = [[[0, 8, 0, 0, 5, 0, 0, 2, 0],
     [6, 0, 0, 0, 0, 7, 0, 0, 5],
     [0, 0, 0, 2, 0, 9, 0, 0, 0],
